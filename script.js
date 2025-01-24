@@ -1,6 +1,6 @@
 async function fetchRecipes() {
     const ingredientInput = document.getElementById('ingredientInput').value;
-    const apiUrl = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredientInput}&number=5&apiKey=7964d265638d43399edac55f9f3f169e`;
+    const apiUrl = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredientInput}&number=5&apiKey=xyz`;
 
     try {
         const response = await fetch(apiUrl);
